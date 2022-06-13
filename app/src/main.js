@@ -2,11 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import store from "./store";
 import routes from "./routes";
-
-/* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
-
-/* import specific icons */
 import {
   faPlus,
   faEdit,
@@ -14,13 +10,10 @@ import {
   faGear,
   faTrash,
 } from "@fortawesome/free-solid-svg-icons";
-
-/* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import plausible from "./plugins/plausible";
 
 library.add(faEdit, faPlus, faBars, faGear, faTrash);
-
-import plausible from "./plugins/plausible";
 
 const plausibleOptions = {
   domain: "xn--khlschrank-9db.app",
