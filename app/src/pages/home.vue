@@ -1,13 +1,13 @@
 <template>
   <div class="vp-home">
-    <div class="grid grid-cols-6">
+    <div class="grid grid-cols-6 mt-5 mb-5">
       <div class="col-span-6 md:col-span-2">
         <clock-card></clock-card>
       </div>
       <div class="col-span-6 md:col-span-2 text-center mt-5">
         <user-card></user-card>
       </div>
-      <div class="col-span-6 md:col-span-2">
+      <div class="col-span-6 md:col-span-2 mt-5">
         <calender-card></calender-card>
       </div>
     </div>

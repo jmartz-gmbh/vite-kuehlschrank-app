@@ -6,7 +6,7 @@
     </div>
     <div class="actions block text-center mb-5">
       <span class="text-sm">
-        <router-link to="/calender" class="text-blue-400">zum Kalender</router-link>
+        <router-link to="/calendar" class="text-blue-400">zum Kalender</router-link>
       </span>
     </div>
   </div>

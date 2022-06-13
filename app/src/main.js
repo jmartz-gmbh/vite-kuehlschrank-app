@@ -23,7 +23,7 @@ library.add(faEdit, faPlus, faBars, faGear, faTrash);
 import plausible from "./plugins/plausible";
 
 const plausibleOptions = {
-  domain: "www.kühlschrank.app",
+  domain: "xn--khlschrank-9db.app",
   apiHost: "https://tracking.jmartz.gmbh",
   hashMode: false,
   trackLocalhost: false,
